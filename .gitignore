@@ -1,0 +1,15 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars 
+.terraform.lock.hcl
+
+*.pem
+
+app-backup.tar.gz
+migration_demo.sql
+
+*.log
+
+*.sql
+*.tar.gz
