@@ -162,7 +162,7 @@ resource "aws_iam_instance_profile" "ec2_profile" {
 }
 
 resource "aws_instance" "migration_server" {
-  ami = data.aws_ami.ubuntu.id
+  ami                         = data.aws_ami.ubuntu.id
   instance_type               = var.instance_type
   key_name                    = "migration-lab-key"
   subnet_id                   = aws_subnet.public_subnet.id
