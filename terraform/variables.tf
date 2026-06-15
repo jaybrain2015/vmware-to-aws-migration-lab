@@ -21,8 +21,3 @@ variable "ssh_allowed_cidr" {
   type        = string
   default     = "0.0.0.0/0"
 }
-
-variable "ami_id" {
-  description = "Ubuntu AMI ID"
-  type        = string
-}
